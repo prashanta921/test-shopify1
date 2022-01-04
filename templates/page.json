@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "second": {
+      "type": "custom-section",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "second"
+  ]
+}

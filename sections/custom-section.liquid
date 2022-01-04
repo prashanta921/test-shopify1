@@ -1,0 +1,25 @@
+<div class="page-width page-width--narrow">
+  <h2>{{section.settings.heading}}</h2>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Custom Section",
+    "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Hello Custom Section",
+          "label": "Hello Custom Section"
+        }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.rich-text.presets.name"
+      }
+     ]
+  }
+{% endschema %}
+
+
